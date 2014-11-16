@@ -1,8 +1,10 @@
 .includepath
 .project
+.travis.yml
 bin/ezbackup
 build.sh
 Changes
+cpan-upload.sh
 ignore.txt
 lib/Backup/EZ.pm
 Makefile.PL

@@ -19,9 +19,9 @@ no_index:
     - inc
 requires:
   Config::General: '0'
+  Data::UUID: '0'
   File::ShareDir: '0'
   File::Slurp: '0'
-  OSSP::uuid: '0'
   Unix::Syslog: '0'
   perl: '5.006'
-version: '0.19'
+version: '0.20'
