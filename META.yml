@@ -24,4 +24,4 @@ requires:
   File::Slurp: '0'
   Unix::Syslog: '0'
   perl: '5.006'
-version: '0.20'
+version: '0.21'

@@ -30,11 +30,11 @@ ok( @list == 1 );
 
 ok( $ez->backup );
 @list = $ez->get_list_of_backups();
-ok( @list == 2 );
+ok( @list == 2 ) or print Dumper \@list;
 
 # cleanup
 my $cmd =
-  sprintf( "ssh %s rm -rf %s", $ez->get_backup_host(), $ez->get_dest_dir() );
+  sprintf( "rm -rf %s", $ez->get_dest_dir() );
 system($cmd);
 
 done_testing();
